@@ -1,0 +1,196 @@
+.sns-icon{
+    background-color: white;
+}
+
+.layout-header{
+    background-color: black;
+}
+
+.layout-content{
+    width:94%;
+    margin:0 auto;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+nav{
+    width: 1510px;
+    line-height:60px;
+    background-color: #232323;
+    margin-top:0;
+    font-size:18px;
+}
+
+ul1{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+li1{
+    list-style: none;
+    margin-left: 150px;
+    color:#ffffff;
+}
+
+/*三本線ハンバーガー*/
+.material-symbols-outlined{
+    color:#ffffff;
+    margin-right:auto;
+    font-size: 24px; 
+    background-color: transparent;
+    border: none;
+}
+
+.section-visual-home-text{
+    font-size: 90px;
+}
+
+.section-gallery-home{
+    background-color: white;
+    padding:  20px; /*余白*/
+}
+
+.section-info-home{
+    background-color: black;
+    color:#ffffff;
+    width: auto;
+    padding:  20px; /*余白*/
+}
+
+
+.section-access{
+    background-color: black;
+    color: #ffffff;
+    padding:  20px; /*余白*/
+}
+
+.section-timetable{
+    background-color: #ffffff;
+    padding:  20px; /*余白*/
+}
+
+.section-countdown{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#countdown{
+    color: #ffffff;
+    font-size:  40px;
+}
+
+body{
+    margin-right:auto;
+    width:100%;
+}
+
+
+/* タイムテーブル*/
+.tableBox{
+    margin: 0 auto;
+}
+    
+table {
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+    
+    
+th {
+    border: 1px solid #fff;
+    width: 70px;
+    font-size:12px;
+    color: #fff;
+    text-align: center;
+    background-color: #26292f;
+    vertical-align: top;
+}
+
+td {
+    border: 2px solid #fff;
+    color: #fff;
+    height: 45px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: center;
+    background: #ddded7;
+}
+
+.borderNone {
+    border-bottom: 1px solid #26292f;
+}
+
+.tableBox th.line1 {
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+    
+.color01{
+    background-color: #9dacc9;
+    color: #232121;
+    font-weight: bold;
+}
+
+.color02 {
+    background: #152c40;
+}
+
+.line2 {
+    height: 51px;
+}
+
+.line3 {
+    height: 77px;
+}
+
+.list-sns{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.list-sns__item{
+    list-style:none;
+    float:left;
+    margin:2px;
+    margin-top:5px;
+    padding:8px;
+    display: inline;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+img{
+    width:40px;
+    height:auto;
+}
+
+.sns-icon-header{
+    list-style:none;
+    float:left;
+    margin:2px;
+    margin-top:5px;
+    padding:8px;
+    display: inline;
+}
+
+.sns-icon-ul{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+
+

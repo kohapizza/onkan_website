@@ -1,0 +1,264 @@
+/* トップに来るイメージ */
+.topimages {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: 100% 100%; /* 写真を100％の倍率で表示 */
+    text-align: center;
+  }
+  
+  .topimages img{
+    width: 100%;
+  }
+  
+  .topimage-p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+    padding: 1em 2em;
+    line-height: 2.0;
+    font-size: 2em;
+    color: black;
+  }
+
+  
+ 
+  
+  
+  /* カウントダウン */
+  
+  .btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto; /* 左右中央に配置 */
+  text-align: center;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  }
+  
+  h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+  padding: 1em 2em;
+  line-height: 2.0;
+  display: inline-block;
+  }
+  /*SNS*/
+  ul {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  }
+  li{
+  list-style:none;
+  float:left;
+  margin:2px;
+  margin-top:5px;
+  padding:8px;
+  display: inline;
+  }
+  img{
+  width:30px;
+  height:auto;
+  }
+  
+  
+  /* タイムテーブル*/
+  caption {
+  margin-bottom: 20px;
+  font-family:'Kosogi';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  .tableBox{
+  margin: 0 auto;
+  }
+  
+  table {
+  width: 50%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  }
+  
+  
+  th {
+  border: 1px solid #fff;
+  width: 70px;
+  font-size:12px;
+  color: #fff;
+  text-align: center;
+  background-color: #26292f;
+  vertical-align: top;
+  }
+  td {
+  border: 2px solid #fff;
+  color: #fff;
+  height: 45px;
+  padding: 0 10px;
+  font-size: 14px;
+  text-align: center;
+  background: #ddded7;
+  }
+  .borderNone {
+  border-bottom: 1px solid #26292f;
+  }
+  .tableBox th.line1 {
+  padding-top: 7px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  }
+  .color01{
+  background-color: #9dacc9;
+  color: #232121;
+  font-weight: bold;
+  }
+  .color02 {
+  background: #152c40;
+  }
+  .line2 {
+  height: 51px;
+  }
+  .line3 {
+  height: 77px;
+  }
+  
+  /*基本情報*/
+  .information{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .information h4{
+  color: #0f0e0e;
+  font-family:'Kosogi';
+  font-size:30px;
+  text-align: center;
+  }
+  
+  .information h5{
+  color:#0d0c0c;
+  font-family:'Kosugi';
+  font-size:30px;
+  text-align: center;
+  }
+  
+  div{
+  color:#0e0e0e;
+  font-size:20px;
+  margin-left:40px;
+  margin-right:auto;
+  }
+  
+  .contents{
+  /* text-align:  center;
+  margin: 0 auto;   */
+  left: 50%;
+  transform: translate3d(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+  padding: 1em 2em;
+  line-height: 2.0;
+  display: inline-block;
+  margin: 0 auto;
+  }
+  
+  .accesss{
+  margin: 0 auto;
+  text-align:  center;
+  margin-bottom: 20px;
+  }
+    
+  /*三本線ハンバーガー*/
+  #humberger {
+  position: relative;
+  height: 20px;
+  width: 28px;
+  display: inline-block;
+  box-sizing: border-box;
+  }
+  #humberger div {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 28px;
+  background-color: #000000;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  }
+  #humberger div:nth-of-type(1) {
+  bottom: 20px;
+  }
+  #humberger div:nth-of-type(2) {
+  bottom: 10px;
+  }
+  #humberger div:nth-of-type(3) {
+  bottom: 0;
+  }
+  
+  /*カウントダウン*/
+  .countdown_info h4{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #countdown {
+    text-align: center; /* テキストを中央揃えにする */
+    font-size: 36px; /* フォントサイズを大きくする */
+    font-family:'Kosugi';
+  }
+  nav{
+    width: 1510px;
+    background-color: #232323;
+    margin-top:0;
+  }
+  ul1{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+  
+  }
+  li1{
+    list-style: none;
+    margin-left: 150px;
+    color:#ffffff;
+  }
+  

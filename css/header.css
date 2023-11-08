@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*========= レイアウトのためのCSS ===============*/
+
+h1{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color:#fff;
+  text-shadow: 0 0 15px #666;
+  text-align: center;
+}
+
+
+
+
+/*========= スクロールをすると下のエリアが上にかぶさるCSS ===============*/
+
+.section-visual-home{
+    /*headerを全画面で見せる*/
+  width:100%;
+  height: 100vh;
+  position: relative;
+} 
+
+.section-visual-home:before{
+    /*header の疑似要素に背景画像を指定*/
+  content:"";
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height: 100vh;
+  /*背景画像設定*/
+  background:url("https://gahag.net/img/201602/08s/gahag-0054084207-1.jpg") no-repeat center;
+  background-size:cover;
+}
+
+/*下の被さるエリアの指定*/
+#container{
+  position: relative;
+  z-index:1;
+    /*以下はレイアウトのための記述*/
+  background:#fff;
+  padding:600px 0;
+  text-align: center;
+}
